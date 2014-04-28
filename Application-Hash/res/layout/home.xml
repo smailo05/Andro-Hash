@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hash" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="26dp"
+        android:text="This application allows you to calculate the hash of a text or file  an extension with hash algorithms: MD5, SHA1, SHA-256 and SHA-384. "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ccc" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:text="[2]: the case of a file: select the file in the SD card, then select the hash algorithm then click the button to get the result.  if there is a file extension of (. sfv) That contains the name of the selected file and the hash algorithm and value.  Then click compare to test if the file is complete or no. "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ccc" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="14dp"
+        android:text="[1]: the case of a text: between the character string, then choose the hash algorithm,  Finally, click on the button to get the calculated result. "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ccc" />
+
+</RelativeLayout>
